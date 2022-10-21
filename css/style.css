@@ -2809,7 +2809,7 @@ p.center {
 }
 .invite .invite_title {
   font-family: "Playfair Display", serif;
-  font-size: 70pt;
+  font-size: 90pt;
   width: 48%;
   display: flex;
   flex-direction: column;
@@ -2817,6 +2817,9 @@ p.center {
   align-items: center;
   padding: 30px 20px;
   overflow: hidden;
+}
+.invite .invite_title.invite_title_custom {
+  font-size: 70pt;
 }
 .invite .invite_title .text {
   display: flex;
